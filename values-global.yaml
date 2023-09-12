@@ -14,7 +14,7 @@ global:
     domain: x.omachace.com
 
   xraylab:
-    namespace: "xraylab-2"
+    namespace: "xraylab-1"
 
     s3:
       # Values for S3 bucket access
