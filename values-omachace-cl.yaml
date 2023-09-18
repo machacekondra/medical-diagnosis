@@ -1,0 +1,30 @@
+---
+version: "2.0"
+secrets:
+  # NEVER COMMIT THESE VALUES TO GIT
+  
+  # Database login credentials and configuration
+  - name: xraylab
+    fields:
+    - name: database-user
+      value: xraylab
+    - name: database-host
+      value: xraylabdb
+    - name: database-db
+      value: xraylabdb
+    - name: database-master-user
+      value: xraylab
+    - name: database-password
+      value: "123456"
+    - name: database-root-password
+      value: "123456"
+    - name: database-master-password
+      value: "123456"
+  
+  # Grafana Dashboard admin user/password
+  - name: grafana
+    fields:
+    - name: GF_SECURITY_ADMIN_USER
+      value: root
+    - name: GF_SECURITY_ADMIN_PASSWORD
+      value: "123456"
